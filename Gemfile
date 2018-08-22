@@ -8,7 +8,11 @@ gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   group :development, :test do
-    gem 'sqlite3'
+   
+RailsRails..applicationapplication..routesroutes..draw draw dodo
+root    root 'cars#index''cars#index'
+resources    resources :cars:cars
+endend
   end
   
   group :production do
